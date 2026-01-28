@@ -116,6 +116,9 @@ main {
   font-size: 20info-barpx;
   font-weight: 800;
 }
+.plus-button:hover {
+  background-color: #d96200;
+}
 
 .plus-button {
   position: fixed;
@@ -127,6 +130,8 @@ main {
   background-color: #ff7300;
   font-weight: 500;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .media-info-msg {
@@ -147,7 +152,7 @@ main {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 600px) {
   .media-info-msg {
     display: none;
   }
