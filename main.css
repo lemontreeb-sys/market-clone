@@ -23,8 +23,8 @@ header {
 }
 
 .info-bar__icons img {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 
 .menu-bar {
@@ -38,12 +38,12 @@ header {
 
 .menu-bar .menu-bar__icons {
   display: flex;
-  gap: 16px;
+  gap: 10px;
 }
 
 .menu-bar .menu-bar__icons img {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 }
 
 footer {
@@ -98,7 +98,7 @@ main {
 .items-list__info {
   display: Flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
   padding-top: 4px;
 }
 
@@ -130,7 +130,7 @@ main {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100vw;
