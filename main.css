@@ -149,6 +149,6 @@ main {
 
 @media screen and (max-width: 380px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
