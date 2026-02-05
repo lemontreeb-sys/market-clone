@@ -80,7 +80,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding: 28px 20px;
+  padding: 28px 20px 100px 20px;
 }
 
 .items-list {
@@ -132,6 +132,7 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .media-info-msg {
