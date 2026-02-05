@@ -113,7 +113,7 @@ main {
 }
 
 .items-list__info-price {
-  font-size: 20info-barpx;
+  font-size: 20px;
   font-weight: 800;
 }
 .plus-button:hover {
